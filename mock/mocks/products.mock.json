@@ -1,0 +1,20 @@
+{
+    "name": "products",
+    "request": {
+        "url": "/products",
+        "method": "GET"
+    },
+    "responses": {
+        "ok": {
+            "default": true,
+            "headers": {
+                "content-type": "application/json",
+                "Access-Control-Allow-Origin": "*"
+            },
+            "file": "../mock-data/products-data.json"
+        },
+        "internal_server_error": {
+            "status": 500
+        }
+    }   
+}

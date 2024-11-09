@@ -1,0 +1,16 @@
+{
+  "name": "mock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@ng-apimock/core": "^3.12.0",
+    "@ng-apimock/dev-interface": "^3.5.1",
+    "express": "^4.21.1"
+  }
+}
