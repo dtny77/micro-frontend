@@ -1,0 +1,241 @@
+{
+  "id": "product",
+  "name": "product",
+  "metaData": {
+    "name": "product",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.1.0",
+      "buildName": "product"
+    },
+    "remoteEntry": {
+      "name": "remoteEntry.js",
+      "path": "",
+      "type": "commonjs-module"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "product",
+    "pluginVersion": "0.6.11",
+    "publicPath": "/_next/",
+    "prefetchInterface": false
+  },
+  "shared": [
+    {
+      "id": "product:next/dynamic",
+      "name": "next/dynamic",
+      "version": "14.2.15",
+      "singleton": true,
+      "requiredVersion": "^14.2.15",
+      "assets": {
+        "js": {
+          "async": [
+            "__federation_expose_ProductApp-42a6345f3ba8b5d5.js",
+            "vendor-chunks/@module-federation.js",
+            "__federation_expose_pages__index-5170a2eeb3bef26f.js"
+          ],
+          "sync": [
+            "vendor-chunks/next.js",
+            "webpack-runtime.js",
+            "vendor-chunks/@swc.js",
+            "vendor-chunks/@module-federation.js",
+            "pages/_error.js",
+            "pages/_document.js",
+            "pages/index.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "product:next/image",
+      "name": "next/image",
+      "version": "14.2.15",
+      "singleton": true,
+      "requiredVersion": "^14.2.15",
+      "assets": {
+        "js": {
+          "async": [
+            "__federation_expose_ProductApp-42a6345f3ba8b5d5.js",
+            "vendor-chunks/@module-federation.js",
+            "__federation_expose_pages__index-5170a2eeb3bef26f.js"
+          ],
+          "sync": [
+            "vendor-chunks/next.js",
+            "webpack-runtime.js",
+            "vendor-chunks/@swc.js",
+            "vendor-chunks/@module-federation.js",
+            "pages/_error.js",
+            "pages/_document.js",
+            "pages/index.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "product:next/link",
+      "name": "next/link",
+      "version": "14.2.15",
+      "singleton": true,
+      "requiredVersion": "^14.2.15",
+      "assets": {
+        "js": {
+          "async": [
+            "__federation_expose_ProductApp-42a6345f3ba8b5d5.js",
+            "vendor-chunks/@module-federation.js",
+            "__federation_expose_pages__index-5170a2eeb3bef26f.js"
+          ],
+          "sync": [
+            "vendor-chunks/next.js",
+            "webpack-runtime.js",
+            "vendor-chunks/@swc.js",
+            "vendor-chunks/@module-federation.js",
+            "pages/_error.js",
+            "pages/_document.js",
+            "pages/index.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "product:next/router",
+      "name": "next/router",
+      "version": "14.2.15",
+      "singleton": true,
+      "requiredVersion": "^14.2.15",
+      "assets": {
+        "js": {
+          "async": [
+            "__federation_expose_ProductApp-42a6345f3ba8b5d5.js",
+            "vendor-chunks/@module-federation.js",
+            "__federation_expose_pages__index-5170a2eeb3bef26f.js"
+          ],
+          "sync": [
+            "vendor-chunks/next.js",
+            "webpack-runtime.js",
+            "vendor-chunks/@swc.js",
+            "vendor-chunks/@module-federation.js",
+            "pages/_error.js",
+            "pages/_document.js",
+            "pages/index.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "product:next/script",
+      "name": "next/script",
+      "version": "14.2.15",
+      "singleton": true,
+      "requiredVersion": "^14.2.15",
+      "assets": {
+        "js": {
+          "async": [
+            "__federation_expose_ProductApp-42a6345f3ba8b5d5.js",
+            "vendor-chunks/@module-federation.js",
+            "__federation_expose_pages__index-5170a2eeb3bef26f.js"
+          ],
+          "sync": [
+            "vendor-chunks/next.js",
+            "webpack-runtime.js",
+            "vendor-chunks/@swc.js",
+            "vendor-chunks/@module-federation.js",
+            "pages/_error.js",
+            "pages/_document.js",
+            "pages/index.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "id": "product:ProductApp",
+      "name": "ProductApp",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_ProductApp-42a6345f3ba8b5d5.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./ProductApp"
+    },
+    {
+      "id": "product:pages-map",
+      "name": "pages-map",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "path": "./pages-map"
+    },
+    {
+      "id": "product:pages-map-v2",
+      "name": "pages-map-v2",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": []
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "path": "./pages-map-v2"
+    },
+    {
+      "id": "product:pages/index",
+      "name": "pages/index",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_pages__index-5170a2eeb3bef26f.js"
+          ],
+          "async": []
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./pages/index"
+    }
+  ]
+}
